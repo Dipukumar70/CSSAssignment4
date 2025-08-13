@@ -167,7 +167,7 @@
     background-color: black;
     color: white;
     height: 194px;
-    width: 150px;
+    width: 130px;
     text-decoration: underline;
     grid-column-start: 4;
     grid-row: 1 / 4;
@@ -181,4 +181,5 @@
 }
 
 /* BOX-6 End */
+
 
