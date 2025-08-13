@@ -1,0 +1,184 @@
+
+.main{
+    height: min-content;
+    width: 100%;
+}
+
+/* BOX-1 Start*/
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    background-image: repeating-linear-gradient(90deg, red, rgb(11, 210, 11), yellow);
+}
+/* BOX-1 End */
+
+/* BOX-2 Start */
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    height: min-content;
+    width: 80%;
+    background-color: rgb(76, 234, 234);
+    border: 2px solid red;
+    margin: 20px;
+    justify-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.home:hover{
+    text-decoration: underline;
+}
+.Contact:hover{
+    text-decoration: underline;
+}
+.Review:hover{
+    text-decoration: underline;
+}
+/* BOX-2 End */
+
+/* BOX-3 Start  */
+.box3{
+    height: min-content;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+.containt1, .containt2, .containt3, .containt4{
+    height: 90px;
+    width: 350px;
+    background-color: rgb(28, 255, 255);
+    text-align: center;
+    border: 2px solid rgb(0, 135, 124);
+    border-radius: 15px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 15px 1px 15px;
+
+}
+.containt4{
+    margin-left: 410px;
+}
+/* BOX-3 End */
+
+/* BOX-4 Start  */
+.Secondheading{
+    text-align: center;
+    background-image: linear-gradient(90deg, red, yellow, red);
+}
+/* BOX-4 End */
+
+/* BOX-5 Start  */
+.box5{
+    text-align: center;
+   background-image: radial-gradient( blue 1%, rgb(98, 247, 255) 30%,green 90%);
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.student1, .student2, .student3, .student4{
+    height: 100px;
+    width: 210px;
+    color: brown;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(246, 255, 0);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* BOX-5 End */
+
+/* Last BOX-6 Start */
+.box6{
+    height: min-content;
+    width: 85%;
+    border: 2px solid black;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.lastheading{
+    text-align: center;
+    color: white;
+    background-color: red;
+
+}
+.lstbox{
+    display: grid;
+    grid-gap: 5px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* margin-top: 10px; */
+    box-sizing: border-box;
+    width: 95%;
+}
+
+.div1 p{
+    background-color: lightgreen;
+    height: 80px;
+    width: 320px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.div2 p{
+    height: 80px;
+    width: 320px;
+    background-color: rgb(162, 226, 230);
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.div3 p{
+    height: 80px;
+    background-color: blue;
+    color: white;
+    width: 350px;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.div4 {
+    height: 100px;
+    color: white;
+    background-color: orange;
+    grid-column: 1 / 4;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.div5{
+    background-color: black;
+    color: white;
+    height: 194px;
+    width: 130px;
+    text-decoration: underline;
+    grid-column-start: 4;
+    grid-row: 1 / 4;
+}
+
+.wishing h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 229, 255);
+    margin-bottom: 0px;
+}
+/* BOX-6 End */
