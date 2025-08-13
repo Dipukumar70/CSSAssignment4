@@ -116,9 +116,7 @@
 .lstbox{
     display: grid;
     grid-gap: 5px;
-    /* display: flex; */
     flex-wrap: wrap;
-    /* margin-top: 10px; */
     box-sizing: border-box;
     width: 95%;
 }
@@ -181,4 +179,5 @@
     background-color: rgb(0, 229, 255);
     margin-bottom: 0px;
 }
+
 /* BOX-6 End */
